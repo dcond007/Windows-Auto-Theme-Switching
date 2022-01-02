@@ -37,7 +37,7 @@
 ### Add Registry edit
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/8.png" width="600">
 
-* Add the following arguments. Only one argument can be added per action. For example, if you want to change both the applications and windows ui theme, you would need two separate actions. 
+* If you want to change both the applications *and* windows ui theme, you would need two separate actions. Paste the one of the following arguments provided below:
 #### Change Windows UI, Taskbar, File Explorer
 * Dark:
 	* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f`
@@ -53,13 +53,13 @@
 
 
 ### Settings
-* Make sure you run the script after a missed schedule. This way when you are on the computer after a schedule run time, the theme change will still be enabled. 
+* Run the script after a missed schedule. This way when you are on the computer after a scheduled run time, the task will still be enabled. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/9.png" width="600">
 
 
 
 ### Test the Script
-* Head back to the task scheduler home library, look for the new schedueler, right click and select "run". You should see your windows theme change. Congrats, auto theme is now functional. 
+* Head back to the task scheduler home library, look for the new schedule, right click and select "run". You should see your windows theme change. Congrats, auto theme is now functional. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/10.png" width="600">
 
 
