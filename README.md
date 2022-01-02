@@ -1,7 +1,7 @@
 
 # Windows-Theme-Scheduler
 
-## How to change windows light/dark theme automatically
+## How to set light/dark theme automatically
 
 
 #### Change the Task Bar, Start Menu, and System UI
