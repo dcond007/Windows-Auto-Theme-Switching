@@ -16,7 +16,7 @@
 * Light:
 	* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f`
 
-![Step 1](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/1.png)
+![Step 1](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/1.png) width='2'
 ![Step 2](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/2.png)
 ![Step 3](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/3.png)
 ![Step 4](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/4.png)
