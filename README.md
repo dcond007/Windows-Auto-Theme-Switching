@@ -17,11 +17,11 @@
 	* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f`
 
 #### Open Task Scheduler
-![Step 1](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/1.png | width = 500)
+![Step 1](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/1.png | width=500)
 
 
 #### Create a new task
-![Step 2](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/2.png | width = 600)
+![Step 2](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/2.png | width=600)
 ![Step 3](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/3.png)
 ![Step 4](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/4.png)
 ![Step 5](https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/5.png)
