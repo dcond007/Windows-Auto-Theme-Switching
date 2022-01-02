@@ -1,7 +1,5 @@
 
-# Windows-Theme-Scheduler
-
-## Give Windows auto theme switching. 
+# Windows Automatic Theme Switching
 
 
 ### Open Task Scheduler
