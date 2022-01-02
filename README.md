@@ -1,5 +1,5 @@
 # Windows-Theme-Scheduler
-Change windows app and system theme to light or dark mode using Task Scheduler
+Change windows app and system theme to light or dark mode using the Task Scheduler
 
 Add a task schedluer for light mode, and another for dark mode. Script can be set to run at a time, for an automatic effect. <br />
 
