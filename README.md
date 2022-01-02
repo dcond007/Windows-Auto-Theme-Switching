@@ -2,6 +2,7 @@
 # Windows-Theme-Scheduler
 
 ## How to set light/dark theme automatically
+* Two tasks are needed for both light mode and dark mode. 
 
 
 
@@ -21,8 +22,7 @@
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/4.png" width="600">
 
 
-#### New Trigger
-* You should trigger the task to run daily on a new schedule. Starting the light theme at 8:00AM and Dark theme at 8:00PM works nicely.
+#### Configure New Trigger
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/5.png" width="600">
 
 
@@ -32,8 +32,8 @@
 
 #### Add Registry edit
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/8.png" width="600">
-* The following parameters will manually change the windows theme by directliy editing the registry. This is equiveant to heading to the settings menu, and changing the theme. Add the following arguments below as to your preferences. One set of arguments are for changing the windows task bar (windows ui) and the applications themes, such as for web browsers, microsoft word, and other apps. 
-
+* Add the following parameters to edit the theme on the windows registry. This is equivalent to heading to the settings view and adusting your theme via windows GUI.
+#### Change Windows UI, Taskbar, File Explorer
 * Dark:
 	* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f`
 * Light:
@@ -47,7 +47,7 @@
 
 
 #### Settings
-* Run the task as soon as possible after a scheule is missed. Otherwise, if you are not logged into the computer during the runtime, windows will ignore the script. If the task fails, resetart it every minute up to 3 times. Cancel the task if it takes longer than an hour. Do not start a new instance. All of this will run seamless in the background. 
+* Make sure you run the script after a missed schedule. This way when you are on the computer after a schedule run time, the theme change will still be enabled. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/9.png" width="600">
 
 
