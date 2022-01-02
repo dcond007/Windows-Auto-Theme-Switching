@@ -6,12 +6,11 @@ Add a task schedlue script for light mode, and another for dark mode. Script can
 Add the following to the "add" portion to the script editor:<br />
 
 
-### Changes the Task Bar, Start Menu, and System UI <br />
+### Changes the Task Bar, Start Menu, and System UI
 #### Dark:<br />
 add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f<br />
 #### Light:<br />
 add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 1 /f
-
 
 ### Changes Apps, Browsers, etc. <br />
 #### Dark:<br />
