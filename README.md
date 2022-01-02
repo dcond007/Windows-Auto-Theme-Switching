@@ -17,11 +17,11 @@
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/3.png" width="600">
 
 
-#### Triggers Tab
+#### Create a Trigger
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/4.png" width="600">
 
 
-#### New Trigger 
+#### New Trigger
 * The new task should begin on a new scheule. You want the task to recur every 1 day, hence this task will run once daily. Set the starting time to your preferences. 8:00 AM is a good time to begin the light theme. Its recommended to stop running the task if it takes longer than 30 minutes. This is a simple registry edit, but its good to have a stop if any issues occur. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/5.png" width="600">
 
