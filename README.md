@@ -60,7 +60,7 @@
 
 
 ### Test the Script
-* Head back to the task scheduler home library, look for the new schedule, right click and select "run". You should see your windows theme change. Congrats, auto theme is now functional. 
+* Congrats, auto theming is now created. Head back to the task scheduler home library, look for the new schedule, right click and select "run". You should see your windows theme change. Keep in mind another task would need to be created to enable dark mode. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/10.png" width="600">
 
 
