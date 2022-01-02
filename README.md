@@ -3,15 +3,21 @@ Change windows app and system theme to light or dark mode using the Task Schedul
 
 Add a task schedlue script for light mode, and another for dark mode. Script can be set to run at a time, for an automatic effect. <br />
 
-Registry editor commands:<br />
+Add the following to the "add" portion to the script editor:<br />
 
-Dark:<br />
-add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f<br />
+
+### Changes the Task Bar, Start Menu, and System UI <br />
+### Dark:<br />
 add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f<br />
-
-Light:
-add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f
+### Light:<br />
 add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 1 /f
+
+
+### Changes Apps, Browsers, etc. <br />
+### Dark:<br />
+add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f<br />
+### Light:<br />
+add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f
 
 # 1
 ## 2
