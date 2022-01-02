@@ -53,7 +53,7 @@
 
 
 
-### Settings
+### Optimize Settings
 * Run the script after a missed schedule. This way when you are on the computer after a scheduled run time, the task will still be enabled. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/9.png" width="600">
 
