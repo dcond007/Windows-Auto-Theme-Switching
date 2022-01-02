@@ -1,7 +1,7 @@
 
 # Windows-Theme-Scheduler
 
-## Give Windows auto dark/light mode via task scheduling. 
+## Give Windows auto theme switching. 
 
 
 ### Open Task Scheduler
