@@ -25,6 +25,7 @@
 
 
 ### Configure New Trigger
+* Here is where you can set your prefered theme change start time. 
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/5.png" width="600">
 
 
