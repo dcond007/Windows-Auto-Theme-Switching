@@ -7,10 +7,10 @@ Add the following to the "add" portion to the script editor:<br />
 
 
 #### Changes the Task Bar, Start Menu, and System UI
-##### Dark:
-`add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f`
-##### Light:
-`add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 1 /f`
+* ##### Dark:
+* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 0 /f`
+* ##### Light:
+* `add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize /v SystemUsesLightTheme /t REG_DWORD /d 1 /f`
 
 #### Changes Apps, Browsers, etc.
 ##### Dark:
