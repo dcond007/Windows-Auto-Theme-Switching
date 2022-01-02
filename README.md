@@ -1,7 +1,7 @@
 
 # Windows-Theme-Scheduler
 
-## How to set light/dark theme automatically
+## How to program auto-theme on Windows 10
 
 
 ### Open Task Scheduler
