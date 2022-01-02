@@ -2,8 +2,6 @@
 # Windows-Theme-Scheduler
 
 ## How to set light/dark theme automatically
-* Two tasks are needed for both light mode and dark mode. 
-
 
 
 ### Open Task Scheduler
