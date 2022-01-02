@@ -35,7 +35,7 @@
 
 
 
-### Add Registry edit
+### Configure New Action
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/8.png" width="600">
 
 * If you want to change both the applications *and* windows ui theme, you would need two separate actions. Paste the one of the following arguments provided below:
