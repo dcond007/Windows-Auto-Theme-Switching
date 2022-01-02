@@ -32,6 +32,7 @@
 
 #### Add Registry edit
 <img src="https://github.com/dcond007/Windows-Theme-Scheduler/blob/main/walkthrough/8.png" width="600">
+
 * Add the following parameters to edit the theme on the windows registry. This is equivalent to heading to the settings view and adusting your theme via windows GUI.
 #### Change Windows UI, Taskbar, File Explorer
 * Dark:
