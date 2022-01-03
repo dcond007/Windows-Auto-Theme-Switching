@@ -1,5 +1,6 @@
 
 # Windows Automatic Theme Switching
+Windows does not include an automatic dark/light mode theme switching. This guide will show you how achieve auto theming via a task schedule. 
 
 
 ### Open Task Scheduler
