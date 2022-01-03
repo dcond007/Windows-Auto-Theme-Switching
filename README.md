@@ -1,6 +1,6 @@
 
 # Windows Automatic Theme Switching
-Windows does not include automatic theme switching. This guide will show you how achieve auto theming via a task schedule. 
+Windows does not include automatic theme switching. This guide will show you how to program auto theming via a task schedule. 
 * Note: Two different tasks will be created, one to enable light mode, and another to enable dark mode. 
 
 
